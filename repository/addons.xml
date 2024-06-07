@@ -1,0 +1,13 @@
+<addons>
+    <addon id="plugin.video.iptv" name="IPTV Grátis" version="1.0.0" provider-name="SeuNome">
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Addon de IPTV grátis e legal</summary>
+            <description>Este addon fornece uma lista de canais IPTV gratuitos e legais.</description>
+            <platform>all</platform>
+            <language>pt_br</language>
+        </extension>
+    </addon>
+</addons>
